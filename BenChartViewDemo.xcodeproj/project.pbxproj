@@ -15,6 +15,7 @@
 		BAE058D31BCFABB2004643A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE058D11BCFABB2004643A8 /* LaunchScreen.storyboard */; };
 		BAE058DE1BCFABB3004643A8 /* BenChartViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE058DD1BCFABB3004643A8 /* BenChartViewDemoTests.m */; };
 		BAE058E91BCFABB3004643A8 /* BenChartViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE058E81BCFABB3004643A8 /* BenChartViewDemoUITests.m */; };
+		BAE058FA1BCFABE1004643A8 /* BenBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE058F91BCFABE1004643A8 /* BenBarChartView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BAE058E41BCFABB3004643A8 /* BenChartViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenChartViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE058E81BCFABB3004643A8 /* BenChartViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenChartViewDemoUITests.m; sourceTree = "<group>"; };
 		BAE058EA1BCFABB3004643A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE058F81BCFABE1004643A8 /* BenBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BenBarChartView.h; sourceTree = "<group>"; };
+		BAE058F91BCFABE1004643A8 /* BenBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BenBarChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		BAE058C21BCFABB2004643A8 /* BenChartViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BAE058F61BCFABE1004643A8 /* BenChartView */,
 				BAE058C61BCFABB2004643A8 /* AppDelegate.h */,
 				BAE058C71BCFABB2004643A8 /* AppDelegate.m */,
 				BAE058C91BCFABB2004643A8 /* ViewController.h */,
@@ -138,6 +142,23 @@
 				BAE058EA1BCFABB3004643A8 /* Info.plist */,
 			);
 			path = BenChartViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		BAE058F61BCFABE1004643A8 /* BenChartView */ = {
+			isa = PBXGroup;
+			children = (
+				BAE058F71BCFABE1004643A8 /* BenBarChartView */,
+			);
+			path = BenChartView;
+			sourceTree = "<group>";
+		};
+		BAE058F71BCFABE1004643A8 /* BenBarChartView */ = {
+			isa = PBXGroup;
+			children = (
+				BAE058F81BCFABE1004643A8 /* BenBarChartView.h */,
+				BAE058F91BCFABE1004643A8 /* BenBarChartView.m */,
+			);
+			path = BenBarChartView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +294,7 @@
 				BAE058CB1BCFABB2004643A8 /* ViewController.m in Sources */,
 				BAE058C81BCFABB2004643A8 /* AppDelegate.m in Sources */,
 				BAE058C51BCFABB2004643A8 /* main.m in Sources */,
+				BAE058FA1BCFABE1004643A8 /* BenBarChartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
