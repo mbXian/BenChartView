@@ -15,7 +15,7 @@
 		BAE058D31BCFABB2004643A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE058D11BCFABB2004643A8 /* LaunchScreen.storyboard */; };
 		BAE058DE1BCFABB3004643A8 /* BenChartViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE058DD1BCFABB3004643A8 /* BenChartViewDemoTests.m */; };
 		BAE058E91BCFABB3004643A8 /* BenChartViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE058E81BCFABB3004643A8 /* BenChartViewDemoUITests.m */; };
-		BAE058FA1BCFABE1004643A8 /* BenBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE058F91BCFABE1004643A8 /* BenBarChartView.m */; settings = {ASSET_TAGS = (); }; };
+		BAE058FA1BCFABE1004643A8 /* BenBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE058F91BCFABE1004643A8 /* BenBarChartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -518,6 +518,7 @@
 				BAE058EF1BCFABB3004643A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAE058F01BCFABB3004643A8 /* Build configuration list for PBXNativeTarget "BenChartViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +527,7 @@
 				BAE058F21BCFABB3004643A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAE058F31BCFABB3004643A8 /* Build configuration list for PBXNativeTarget "BenChartViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +536,7 @@
 				BAE058F51BCFABB3004643A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
